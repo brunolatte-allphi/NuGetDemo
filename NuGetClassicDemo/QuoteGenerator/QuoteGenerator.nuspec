@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>ClassicQuoteGenerator</id>
+    <version>$version$</version>
+    <title>QuoteGenerator</title>
+    <authors>Bubbles</authors>
+    <owners>Me</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>content\text-bubble.png</icon>
+    <description>Generate quotes from web api</description>
+    <copyright>Copyright ©  2021</copyright>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="13.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="images\text-bubble.png" target="content\text-bubble.png" />
+    <file src="bin\Debug\QuoteGenerator.dll" target="lib\net472\QuoteGenerator.dll" />
+  </files>
+</package>

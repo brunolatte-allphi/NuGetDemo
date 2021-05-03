@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon>text-bubble.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>Bubbles</Company>
+    <Authors>Me</Authors>
+    <Description>Generate quotes from web api</Description>
+    <PackageIcon>text-bubble.png</PackageIcon>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageReleaseNotes>Release preview</PackageReleaseNotes>
+    <PackageId>CoreQuoteGenerator</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="images\text-bubble.png">
+      <Pack>True</Pack>
+      <PackagePath>text-bubble.png</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
